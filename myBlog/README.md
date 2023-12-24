@@ -1,8 +1,6 @@
-# React + Vite
+useRef Hook / React.forwardRef Hook
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For eg. You have to make a common button for login and after login pages. Then your button state is present
+where you define your button but you need that state in another pages i.e. login page or any other page (coz
+you made that button common). 
+Therefore React.forwardRef hook comes to play.
